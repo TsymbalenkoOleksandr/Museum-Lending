@@ -36,6 +36,11 @@
   src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+@font-face {
+  font-family: "RobotoLightItalic";
+  src: url("../fonts/RobotoLightItalic/RobotoLightItalic.ttf");
+  font-style: italic;
+  font-weight: normal; }
 * {
   margin: 0;
   padding: 0;
@@ -273,6 +278,17 @@ nav {
 
 .slider2-left, .slider2-right {
   display: inline-block;
-  width: 290px; }
+  width: 290px;
+  font-family: 'RobotoLightItalic';
+  font-size: 16px;
+  font-style: italic; }
+  .slider2-left p:first-child, .slider2-right p:first-child {
+    font-family: 'RobotoLightItalic';
+    font-size: 18px;
+    font-style: italic;
+    color: #7b4aa5; }
+
+.slider2-arrow {
+  top: 79%; }
 
 /*# sourceMappingURL=style.css.map */

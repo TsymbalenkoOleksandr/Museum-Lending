@@ -270,5 +270,14 @@ nav {
 
 .slider2-left, .slider2-right {
 	display: inline-block;
-	width: 290px;;
+	width: 290px;
+	@include rob_lig_ital(16px);
+	p:first-child {
+		@include rob_lig_ital(18px);
+		color: #7b4aa5;
+	}
+}
+
+.slider2-arrow {
+	top: 79%;
 }

@@ -27,3 +27,9 @@
 	font-family: 'OpenSansBold';
 	font-size: $size;
 }
+
+@mixin rob_lig_ital($size) {
+	font-family: 'RobotoLightItalic';
+	font-size: $size;
+	font-style: italic;
+}
