@@ -1,0 +1,29 @@
+@mixin roboto_regular($size) {
+	font-family: 'RobotoRegular';
+	font-size: $size;
+}
+
+@mixin roboto_bold($size) {
+	font-family: 'RobotoBold';
+	font-size: $size;
+}
+
+@mixin roboto_con_reg($size) {
+	font-family: 'RobotoCondensedRegular';
+	font-size: $size;
+}
+
+@mixin roboto_con_bold($size) {
+	font-family: 'RobotoCondensedBold';
+	font-size: $size;
+}
+
+@mixin open_sans_reg($size) {
+	font-family: 'OpenSansRegular';
+	font-size: $size;
+}
+
+@mixin open_sans_bold($size) {
+	font-family: 'OpenSansBold';
+	font-size: $size;
+}

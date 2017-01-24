@@ -1,0 +1,274 @@
+@import 'core/_mixins';
+@import 'core/_fonts';
+
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+.header {
+	position: relative;
+}
+
+.background {
+	background: url(../img/header.png) no-repeat center top;
+	width: 100%;
+	height: 975px;
+	background-size: cover;
+}
+
+.stripe {
+	position: absolute;
+	bottom: 78px;
+	left: 0;
+}
+
+.logo {
+	position: absolute;
+	top: 5.2%;
+	left: 3.6%;
+}
+
+.logo-text {
+	display: inline-block;
+	position: relative;
+	@include roboto_regular(11px);
+}
+
+.logo-text-wrapper {
+	>div {
+		@include roboto_bold(23px);
+	}
+	position: absolute;
+	top: -36px;
+	left: 14px;
+}
+
+nav {
+	position: absolute;
+	top: 7.2%;
+	right: 15.6%;
+	ul {
+		padding: 16px 27px;
+		margin: 0;
+		width: 100%;
+		background: white;
+		>li {
+			display: inline-block;
+			text-transform: uppercase;
+			padding-right: 23px;
+			@include roboto_con_reg(14px);
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+}
+
+.button {
+	position: absolute;
+	right: 2.4%;
+	top: 8.8%;
+	@include roboto_con_bold(14px);
+	a {
+		text-transform: uppercase;
+		cursor: pointer;
+		font-size:14px;
+		text-decoration: none;
+		padding: 13px 46px;
+		color:#904eca;
+		background-color:transparent;
+		border-radius:0px;
+		border: 3px solid #904eca;
+	}
+}
+
+.topnav {
+	@include open_sans_reg(15px);
+	position: absolute;
+	top: 3%;
+	right: 3.2%;
+}
+
+.topnav-lang {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 29px;
+}
+
+.arrow {
+	position: absolute;
+	text-align: justify;
+	width: 94%;
+	top: 33.7%;
+	left: 3%;
+}
+
+// should add left class and change arrow style
+.right {
+	right: 2%;
+}
+
+.date {
+	display: inline-block;
+	position: absolute;
+	top: 43%;
+	left: 5%;
+	color: white;
+	>span {
+		@include open_sans_bold(70px);
+	}
+	.date-sup {
+		vertical-align: 33px;
+		@include open_sans_bold(25px)
+	}
+}
+
+.boxes {
+	display: table;
+	position: absolute;
+	top: 498px;
+	left: 6%;
+}
+
+.boxes-top, .boxes-bottom {
+	display: table-row;
+}
+
+.boxes-top-left {
+	width: 612px;
+	display: table-cell;
+	@include roboto_bold(35px);
+	text-align: left;
+	color: white;
+	>p {
+		padding-top: 25px;
+		@include roboto_regular(25px);
+		color: #3d176b;
+	}
+	>div {
+		margin-bottom: 26px;
+	}
+}
+
+.boxes-button {
+	position: relative;
+	display: inline-block;
+	a {
+		@include roboto_con_bold(20px);
+		text-transform: uppercase;
+		cursor: pointer;
+		text-decoration: none;
+		color: white;
+		background-color:transparent;
+		border-radius:0px;
+		border: 3px solid white;
+	}
+}
+
+.btn-left {
+	margin-right: 25px;
+	a {
+			padding: 16px 47px;
+	}
+}
+
+.btn-right {
+	a{
+		padding: 16px 25px;
+	}
+}
+
+.boxes-top-right {
+	display: table-cell;
+	color: white;
+	height: 322px;
+	width: 604px;
+	background-color: #8740c8;
+	text-align: center;
+	h3 {
+		text-transform: uppercase;
+		@include roboto_bold(22px);
+		margin-bottom: 31px;
+	}
+	>img {
+		position: relative;
+		top: 18px;
+		margin-bottom: 22px;
+	}
+}
+
+.box-discount {
+	@include roboto_regular(22px);
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+
+.box-pay {
+	@include roboto_regular(18px);
+}
+
+.boxes-bottom-left {
+	color: white;
+	display: table-cell;
+	height: 348px;
+	width: 609px;
+	background-color: #8740c8;
+	text-align: center;
+	@include roboto_regular(17px);
+	>img {
+		position: relative;
+		top: 58px;
+		margin-bottom: 70px;
+	}
+	>h3 {
+		line-height: 33px;
+		text-transform: uppercase;
+		@include roboto_bold(22px);
+		margin-bottom: 17px;
+	}
+}
+
+.boxes-bottom-right {
+	color: white;
+	background-color: #90c004;
+	display: table-cell;
+	text-align: center;
+	@include roboto_regular(17px);
+	>img {
+		position: relative;
+		top: 58px;
+		margin-bottom: 70px;
+	}
+	>h3 {
+		line-height: 33px;
+		text-transform: uppercase;
+		@include roboto_bold(22px);
+		margin-bottom: 17px;
+	}
+}
+
+.slider2 {
+	position: relative;
+	text-align: center;
+	margin-top: 214px;
+	>img {
+		margin: 0 45px;
+	}
+}
+
+.btn-photo {
+	position: absolute;
+	top: 207px;
+	left: 43%;
+	text-align: justify;
+	a {
+		padding: 16px 47px;
+	}
+}
+
+.slider2-left, .slider2-right {
+	display: inline-block;
+	width: 290px;;
+}
