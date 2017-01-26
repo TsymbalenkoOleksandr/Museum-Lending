@@ -7,6 +7,10 @@
 	font: inherit;
 }
 
+section {
+	position: relative;
+}
+
 .header {
 	position: relative;
 }
@@ -280,4 +284,207 @@ nav {
 
 .slider2-arrow {
 	top: 79%;
+}
+
+.party {
+	display: table;
+	position: relative;
+	margin: 0 6%;
+	box-shadow: 0px -14px 107px -22px rgba(0,0,0,0.75);
+}
+
+.party-top, .party-bottom {
+	display: table-row;
+}
+
+.party-top-left {
+	display: table-cell;
+}
+
+.party-top-right {
+	background-color: #90c004;
+	color: white;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	@include open_sans_reg(17px);
+	h3 {
+		@include roboto_bold(22px);
+		text-transform: uppercase;
+	}
+}
+
+.party-bottom-left {
+	background-color: #dd892d;
+	color: white;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	@include open_sans_reg(17px);
+	h4 {
+		text-transform: uppercase;
+	}
+	h3 {
+		@include open_sans_bold(22px);
+		text-transform: uppercase;
+	}
+}
+
+.party-bottom-right {
+	display: table-cell;
+}
+
+.sm-stripe {
+	position: absolute;
+	top: 306px;
+	left: -62px;
+	z-index: -1;
+}
+
+.tesla {
+	background: url(../img/tesla.png) top left no-repeat;
+	height: 675px;
+	margin-left: -2px;
+	position: relative;
+}
+
+.tesla-lightning {
+	display: inline-block;
+	margin-left: 31.3%;
+	margin-top: 7.8%;
+	img {
+		float: left;
+		margin-right: 55px;
+	}
+	h3 {
+		@include roboto_bold(22px);
+		text-transform: uppercase;
+		margin-bottom: 37px;
+
+	}
+	p {
+		@include rob_lig(14px);
+		line-height: 1.6em;
+	}
+}
+
+.tesla-lightning-text {
+	position: relative;
+	top: 21px;
+	width: 880px;
+}
+
+.tesla-button {
+	position: relative;
+	display: inline-block;
+	a {
+		@include roboto_con_bold(14px);
+		text-transform: uppercase;
+		cursor: pointer;
+		text-decoration: none;
+		color: black;
+		background-color:transparent;
+		border-radius:0px;
+		border: 3px solid #8740c8;
+	}
+}
+
+.tesla-left, .tesla-right {
+	margin-top: 61px;
+}
+
+.tesla-left {
+	margin-right: 26px;
+	a {
+		padding: 13px 29px;
+	}
+}
+
+.tesla-right {
+	a {
+		padding: 13px 25px;
+	}
+}
+
+.slider3-arrow {
+	top: 86%;
+}
+
+.inform {
+	text-align: center;
+	color: white;
+	@include roboto_regular(20px);
+	h3 {
+		@include roboto_bold(22px);
+		text-transform: uppercase;
+		padding-bottom: 57px;
+	}
+	line-height: 1.5em;
+box-shadow: 76px 0px 179px -103px rgba(0,0,0,0.75);
+}
+
+.inform-contact {
+	background-color: #90c004;
+	width: 523px;
+	vertical-align: top;
+	padding-top: 73px;
+}
+
+.inform-contact-hol {
+	text-transform: uppercase;
+	padding-bottom: 53px;
+}
+
+.inform-text {
+	@include rob_med(25px);
+	text-transform: uppercase;
+	img {
+		margin-bottom: 25px;
+	}
+}
+
+.inform-cafe {
+	background: url(../img/cafe.png) center no-repeat;
+	height: 252px;
+	width: 345px;
+}
+
+.inform-shop {
+	background: url(../img/shop.png) center no-repeat;
+}
+
+.inform-edu {
+	background: url(../img/edu.png) center no-repeat;
+	width: 352px;
+	height: 430px;
+}
+
+.inform-map {
+	vertical-align: baseline;
+}
+
+.inform_color {
+	width: 75px;
+	background-color: #a452d1;
+}
+
+footer {
+	background-color: #a452d1;
+	height: 700px;
+	// position: relative;
+	// top: -188px;
+	// z-index: -1;
+	// trying to make some shit from right side of the table
+}
+
+.footlogo {
+	position: relative;
+	color: white;
+	padding-top: 69px;
+	padding-left: 42px;
+}
+
+.search {
+	position: relative;
+	
 }

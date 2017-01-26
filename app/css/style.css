@@ -41,10 +41,25 @@
   src: url("../fonts/RobotoLightItalic/RobotoLightItalic.ttf");
   font-style: italic;
   font-weight: normal; }
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../fonts/RobotoLight/RobotoLight.eot");
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 * {
   margin: 0;
   padding: 0;
   font: inherit; }
+
+section {
+  position: relative; }
 
 .header {
   position: relative; }
@@ -292,3 +307,176 @@ nav {
 
 .slider2-arrow {
   top: 79%; }
+
+.party {
+  display: table;
+  position: relative;
+  margin: 0 6%;
+  -webkit-box-shadow: 0px -14px 107px -22px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px -14px 107px -22px rgba(0, 0, 0, 0.75); }
+
+.party-top, .party-bottom {
+  display: table-row; }
+
+.party-top-left {
+  display: table-cell; }
+
+.party-top-right {
+  background-color: #90c004;
+  color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'OpenSansRegular';
+  font-size: 17px; }
+  .party-top-right h3 {
+    font-family: 'RobotoBold';
+    font-size: 22px;
+    text-transform: uppercase; }
+
+.party-bottom-left {
+  background-color: #dd892d;
+  color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'OpenSansRegular';
+  font-size: 17px; }
+  .party-bottom-left h4 {
+    text-transform: uppercase; }
+  .party-bottom-left h3 {
+    font-family: 'OpenSansBold';
+    font-size: 22px;
+    text-transform: uppercase; }
+
+.party-bottom-right {
+  display: table-cell; }
+
+.sm-stripe {
+  position: absolute;
+  top: 306px;
+  left: -62px;
+  z-index: -1; }
+
+.tesla {
+  background: url(../img/tesla.png) top left no-repeat;
+  height: 675px;
+  margin-left: -2px;
+  position: relative; }
+
+.tesla-lightning {
+  display: inline-block;
+  margin-left: 31.3%;
+  margin-top: 7.8%; }
+  .tesla-lightning img {
+    float: left;
+    margin-right: 55px; }
+  .tesla-lightning h3 {
+    font-family: 'RobotoBold';
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 37px; }
+  .tesla-lightning p {
+    font-family: 'RobotoLight';
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.6em; }
+
+.tesla-lightning-text {
+  position: relative;
+  top: 21px;
+  width: 880px; }
+
+.tesla-button {
+  position: relative;
+  display: inline-block; }
+  .tesla-button a {
+    font-family: 'RobotoCondensedBold';
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    -webkit-border-radius: 0px;
+            border-radius: 0px;
+    border: 3px solid #8740c8; }
+
+.tesla-left, .tesla-right {
+  margin-top: 61px; }
+
+.tesla-left {
+  margin-right: 26px; }
+  .tesla-left a {
+    padding: 13px 29px; }
+
+.tesla-right a {
+  padding: 13px 25px; }
+
+.slider3-arrow {
+  top: 86%; }
+
+.inform {
+  text-align: center;
+  color: white;
+  font-family: 'RobotoRegular';
+  font-size: 20px;
+  line-height: 1.5em;
+  -webkit-box-shadow: 76px 0px 179px -103px rgba(0, 0, 0, 0.75);
+          box-shadow: 76px 0px 179px -103px rgba(0, 0, 0, 0.75); }
+  .inform h3 {
+    font-family: 'RobotoBold';
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 57px; }
+
+.inform-contact {
+  background-color: #90c004;
+  width: 523px;
+  vertical-align: top;
+  padding-top: 73px; }
+
+.inform-contact-hol {
+  text-transform: uppercase;
+  padding-bottom: 53px; }
+
+.inform-text {
+  font-family: 'RobotoMedium';
+  font-size: 25px;
+  font-style: normal;
+  text-transform: uppercase; }
+  .inform-text img {
+    margin-bottom: 25px; }
+
+.inform-cafe {
+  background: url(../img/cafe.png) center no-repeat;
+  height: 252px;
+  width: 345px; }
+
+.inform-shop {
+  background: url(../img/shop.png) center no-repeat; }
+
+.inform-edu {
+  background: url(../img/edu.png) center no-repeat;
+  width: 352px;
+  height: 430px; }
+
+.inform-map {
+  vertical-align: baseline; }
+
+.inform_color {
+  width: 75px;
+  background-color: #a452d1; }
+
+footer {
+  background-color: #a452d1;
+  height: 700px; }
+
+.footlogo {
+  position: relative;
+  color: white;
+  padding-top: 69px;
+  padding-left: 42px; }
+
+.search {
+  position: relative; }

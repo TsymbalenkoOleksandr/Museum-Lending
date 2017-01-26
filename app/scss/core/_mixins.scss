@@ -33,3 +33,15 @@
 	font-size: $size;
 	font-style: italic;
 }
+
+@mixin rob_lig($size) {
+	font-family: 'RobotoLight';
+	font-size: $size;
+	font-style: normal;
+}
+
+@mixin rob_med($size) {
+	font-family: 'RobotoMedium';
+	font-size: $size;
+	font-style: normal;
+}
