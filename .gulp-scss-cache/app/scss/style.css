@@ -53,6 +53,12 @@
   src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 * {
   margin: 0;
   padding: 0;
@@ -465,7 +471,7 @@ nav {
 
 footer {
   background-color: #a452d1;
-  height: 700px; }
+  height: 510px; }
 
 .footlogo {
   position: relative;
@@ -473,7 +479,69 @@ footer {
   padding-top: 69px;
   padding-left: 42px; }
 
-.search {
-  position: relative; }
+.news {
+  margin-top: 50px;
+  margin-left: 65px; }
+  .news > p {
+    font-family: 'RobotoBold';
+    font-size: 13px;
+    color: white;
+    margin-bottom: 25px;
+    text-transform: uppercase; }
+
+.news-search {
+  width: 223px;
+  border-bottom: 1px solid #fff;
+  min-height: 20px;
+  color: white; }
+  .news-search input {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    padding-left: 17px;
+    outline: 0;
+    width: 203px; }
+    .news-search input::-webkit-input-placeholder {
+      color: white; }
+    .news-search input::-moz-placeholder {
+      color: white; }
+
+.social {
+  margin-left: 65px;
+  margin-top: 65px;
+  font-family: 'RobotoBold';
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white; }
+
+.fa-facebook {
+  margin-top: 12px;
+  margin-right: 30px; }
+
+.block-list {
+  margin-right: 45px;
+  display: inline-block;
+  line-height: 25px; }
+  .block-list li {
+    list-style: none; }
+  .block-list a {
+    font-family: 'OpenSansLight';
+    font-size: 13px;
+    font-style: normal;
+    color: #e6dcf3; }
+  .block-list h4 {
+    margin-bottom: 27px;
+    font-family: 'OpenSansBold';
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white; }
+
+.block_top {
+  margin-top: 83px; }
+
+.block_bottom {
+  margin-top: 20px; }
+  .block_bottom .block-list {
+    margin-right: 70px; }
 
 /*# sourceMappingURL=style.css.map */

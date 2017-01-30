@@ -45,3 +45,9 @@
 	font-size: $size;
 	font-style: normal;
 }
+
+@mixin open_sans_light($size) {
+	font-family: 'OpenSansLight';
+	font-size: $size;
+	font-style: normal;
+}
